@@ -28,6 +28,8 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f7xx_hal.h"
+#include "app_main.h"
+#include "spi_config.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -139,10 +141,6 @@ void Error_Handler(void);
 #define DCMI_D5_GPIO_Port GPIOD
 #define FMC_D3_Pin GPIO_PIN_1
 #define FMC_D3_GPIO_Port GPIOD
-#define SPI_CS4_Pin GPIO_PIN_3
-#define SPI_CS4_GPIO_Port GPIOI
-#define SPI_CS3_Pin GPIO_PIN_2
-#define SPI_CS3_GPIO_Port GPIOI
 #define OTG_FS_N_Pin GPIO_PIN_11
 #define OTG_FS_N_GPIO_Port GPIOA
 #define uSD_Detect_Pin GPIO_PIN_13
@@ -237,10 +235,6 @@ void Error_Handler(void);
 #define LCD_G0_GPIO_Port GPIOJ
 #define LCD_G2_Pin GPIO_PIN_9
 #define LCD_G2_GPIO_Port GPIOJ
-#define SPI_CS2_Pin GPIO_PIN_7
-#define SPI_CS2_GPIO_Port GPIOG
-#define SPI_CS1_Pin GPIO_PIN_6
-#define SPI_CS1_GPIO_Port GPIOG
 #define ARDUINO_A4_Pin GPIO_PIN_7
 #define ARDUINO_A4_GPIO_Port GPIOF
 #define ARDUINO_A5_Pin GPIO_PIN_6
