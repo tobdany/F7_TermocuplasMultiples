@@ -36,7 +36,7 @@ void app_main(void)
         while (1) HAL_Delay(10);
     }
 
-    if (!MAX31856_Init(&mySensor3, &hspi2, SPI_CS4_GPIO_Port, SPI_CS4_Pin)) {
+    if (!MAX31856_Init(&mySensor4, &hspi2, SPI_CS4_GPIO_Port, SPI_CS4_Pin)) {
             HAL_UART_Transmit(&huart1, (uint8_t*)MSG_INIT_ERROR, strlen(MSG_INIT_ERROR), HAL_MAX_DELAY);
             while (1) HAL_Delay(10);
     }

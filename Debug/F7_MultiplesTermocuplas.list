@@ -1763,11 +1763,11 @@ void app_main(void)
  8001220:	e7fb      	b.n	800121a <app_main+0x8a>
     }
 
-    if (!MAX31856_Init(&mySensor3, &hspi2, SPI_CS4_GPIO_Port, SPI_CS4_Pin)) {
+    if (!MAX31856_Init(&mySensor4, &hspi2, SPI_CS4_GPIO_Port, SPI_CS4_Pin)) {
  8001222:	2308      	movs	r3, #8
  8001224:	4a33      	ldr	r2, [pc, #204]	@ (80012f4 <app_main+0x164>)
  8001226:	492e      	ldr	r1, [pc, #184]	@ (80012e0 <app_main+0x150>)
- 8001228:	4833      	ldr	r0, [pc, #204]	@ (80012f8 <app_main+0x168>)
+ 8001228:	4834      	ldr	r0, [pc, #208]	@ (80012fc <app_main+0x16c>)
  800122a:	f7ff fdfd 	bl	8000e28 <MAX31856_Init>
  800122e:	4603      	mov	r3, r0
  8001230:	f083 0301 	eor.w	r3, r3, #1
