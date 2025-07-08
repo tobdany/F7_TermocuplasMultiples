@@ -4,7 +4,7 @@
 #include <string.h>
 
 
-// Estructura para cada sensor
+// Estructura para cada sensor//
 Max31856_HandleTypeDef mySensor1;
 Max31856_HandleTypeDef mySensor2;
 Max31856_HandleTypeDef mySensor3;
