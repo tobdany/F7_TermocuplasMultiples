@@ -5,6 +5,7 @@
 
 
 // Estructura para cada sensor//
+//is git updated?
 Max31856_HandleTypeDef mySensor1;
 Max31856_HandleTypeDef mySensor2;
 Max31856_HandleTypeDef mySensor3;
