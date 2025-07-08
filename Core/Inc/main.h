@@ -28,12 +28,11 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f7xx_hal.h"
-#include "app_main.h"
-#include "spi_config.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "app_main.h"
+#include "spi_config.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
